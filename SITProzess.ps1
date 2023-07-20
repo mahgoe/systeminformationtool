@@ -2,18 +2,13 @@
 .SYNOPSIS
 SYSTEM INFORMATION TOOL (SIT)
 .DESCRIPTION
-This program show with help from a menu the most important informations
-about the local machine. In the first step the program show a main menu
-and the user can choose within the main menu the informations he wants to get and
-the informations will show up in the console.
-After the first step the program show a export menu and the user can choose if he wants to extract the 
-informations in a CSV file. All csv-files will be saved in a folder (called "SITEXPORT") in the users local machine in 
-the user folder.
-With help from -UseCulture the CSV File will be in the Culture of the current machine.
-The user can exit the main menu with "q".
+This program, designed with a user-friendly menu interface, fetches and displays crucial information about the local machine. Initially, the program displays a main menu, where the user can select the type of information they wish to view. Once a selection is made, the corresponding data is displayed in the console.
+Following this, an export menu is presented, allowing the user to decide if they want to export the obtained information to a CSV file. If chosen, these CSV files are saved in a directory named "SITEXPORT", located in the user's local folder on their machine.
+An important feature of the program is the implementation of -UseCulture. This ensures that the formatting and presentation of the data in the CSV file matches the cultural settings of the current machine, providing an optimized experience for international users.
+To exit the main menu, the user can simply input "q".
+Furthermore, each instance of the program's usage is meticulously logged for future reference and troubleshooting. These logs are stored in the "SITEXPORT" folder, providing a comprehensive historical record of user interactions.
 
-Every usage of this program will be logged in a folder called "SITEXPORT". The folder is in the users local machine in
-the user folder.
+This program offers a combination of immediate access to essential system information and seamless export capabilities, while promoting user-friendly interaction and providing detailed activity logs.
 .PARAMETER <ParameterName-1>
 -
 .PARAMETER <ParameterName-N>

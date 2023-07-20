@@ -27,16 +27,6 @@ https://github.com/mahgoe
 v1.0
 #>
 
-
-# ARGS einbinden
-
-# Export Html
-
-
-
-#Get-ExecutionPolicy
-#Set-ExecutionPolicy RemoteSigned -Force
-
 # Funktion Set-Bindestriche
 
 

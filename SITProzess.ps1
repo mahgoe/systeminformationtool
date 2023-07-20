@@ -29,7 +29,6 @@ v1.0
 
 # Funktion Set-Bindestriche
 
-
 function Set-Bindestriche 
 {
     param ([string]$Strich = "-", [INT]$AnzahlStriche = 10)

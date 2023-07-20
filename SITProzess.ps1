@@ -264,11 +264,11 @@ function Get-UserGroup
 # Ereignisprotokoll auslesen
 function Get-LastEventLog 
 {
- Clear-Host
- Set-LogFile -Text "Get-EventLog -LogName Application -After (Get-Date).AddDays(-2) wurde ausgefuehrt durch: "
- Get-EventLog -LogName Application -After (Get-Date).AddDays(-2)
- $InputExport = Get-EventLog -LogName Application -After (Get-Date).AddDays(-2)
- $InputExport = Export-Ergebnis -FileName "EventLog.csv"
+    Clear-Host
+    Set-LogFile -Text "Get-EventLog -LogName Application -After (Get-Date).AddDays(-2) wurde ausgefuehrt durch: "
+    Get-EventLog -LogName Application -After (Get-Date).AddDays(-2)
+    $InputExport = Get-EventLog -LogName Application -After (Get-Date).AddDays(-2)
+    $InputExport = Export-Ergebnis -FileName "EventLog.csv"
 }
 
 # Help Menü
